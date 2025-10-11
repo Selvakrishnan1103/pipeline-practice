@@ -30,4 +30,4 @@ jobs:
           pytest --maxfail=1 --disable-warnings -v
       - name: Run Files
         run: |
-          python app.py
+          python Calculator-app/app.py
