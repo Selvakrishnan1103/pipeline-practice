@@ -2,7 +2,7 @@ import pytest
 from app import add, subtract, multiply, divide, remainder_divide, floor_divide
 
 def test_add():
-    assert add(3,2) == 6
+    assert add(3,2) == 5
     assert add(4,-1) == 3
 
 def test_subtract():
