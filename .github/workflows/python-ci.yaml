@@ -26,4 +26,5 @@ jobs:
         
       - name: Run tests
         run: |
-          pytest --maxfail=1 --disable-warnings -v --rootdir=Calculator-app
+          export PYTHONPATH="${PYTHONPATH}:$(pwd)/Calculator-app"
+          pytest --maxfail=1 --disable-warnings -v
